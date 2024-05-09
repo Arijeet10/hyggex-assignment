@@ -6,7 +6,7 @@ export const BreadCrumbContext=React.createContext();
 
 const BreadCrumbContextProvider=({children})=>{
 
-    const [breadcrumb,setBreadcrumb]=useState("")
+    const [breadcrumb,setBreadcrumb]=useState("/")
 
     return (
         <BreadCrumbContext.Provider value={{breadcrumb,setBreadcrumb}}>

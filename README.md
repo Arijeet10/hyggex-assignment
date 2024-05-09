@@ -1,4 +1,4 @@
-Live URL -
+Live URL - https://hyggex-assignment-alpha.vercel.app/
 
 To run the app on localserver, follow these steps:
 
@@ -37,6 +37,8 @@ yarn dev
 ```
 
 8. Finally, go the localhost url shown in the terminal on your web browser to use the app.
+
+9. Click on the Flashcard menu in the homepage to view the Flashcard page which was given as an assignment.
 
 
 
