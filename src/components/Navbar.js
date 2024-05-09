@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="py-[2vh] sm:py-[4vh] flex flex-col sm:flex-row sm:items-center justify-between gap-[2vh]">
+      <div className="py-[0.5vh] sm:py-[1vh] flex flex-col sm:flex-row sm:items-center justify-between gap-[2vh]">
         <div className="flex items-center justify-center sm:justify-start">
           <img src="/mainlogo.svg" alt="hyggex logo" className="w-[18-vw] h-[4vh]  sm:w-[14vw] sm:h-[4vh] md:h-[10vh] " />
         </div>
