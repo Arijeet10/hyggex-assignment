@@ -26,7 +26,7 @@ const Flashcard = () => {
             <img
               src="/publishedlogo.svg"
               alt="published logo"
-              className="w-[50vw] h-[10vh]  sm:w-[20vw] sm:h-[10vh]"
+              className="w-[50vw] h-[12vh]  sm:w-[20vw] sm:h-[10vh] md:h-[20vh]"
             />
           </div>
           <div className=" flex items-center justify-center">
