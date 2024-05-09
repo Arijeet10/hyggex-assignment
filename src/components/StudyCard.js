@@ -62,7 +62,7 @@ const StudyCard = () => {
               <div className="absolute top-10 right-10">
                 <img src="/sound.svg" alt="" className="w-[4vw] sm:w-[3vw] h-[5vh]" />
               </div>
-              <div className="text-[#ffffff] text-[5vw] font-bold">
+              <div className="text-[#ffffff] text-[5vw] sm:text-[4vw] font-bold">
                 {item}
               </div>
             </div>
