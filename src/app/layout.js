@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import "./globals.css";
+import BreadCrumbContextProvider from "@/providers/BreadCrumbProvider";
 
 
 export const metadata = {
@@ -11,8 +12,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="px-[4vw] py-[2vh] bg-[#F9F9F9]">
+      <BreadCrumbContextProvider>
       <Navbar />
       {children}
+      </BreadCrumbContextProvider>
       </body>
     </html>
   );

@@ -5,7 +5,7 @@ To run the app on localserver, follow these steps:
 1. Copy the GitHub Repository URL.
 
 ```bash
-
+https://github.com/Arijeet10/hyggex-assignment.git
 ```
 
 2. Go to the directory on your local server and open terminal.
@@ -13,7 +13,7 @@ To run the app on localserver, follow these steps:
 3. Type git clone and paste the url you copied earlier.
 
 ```bash
-git clone 
+git clone https://github.com/Arijeet10/hyggex-assignment.git
 ```
 
 4. Press Enter to clone the repository in your local folder.

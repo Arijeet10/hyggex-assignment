@@ -1,10 +1,18 @@
+"use client";
 
 import Faq from "@/components/Faq";
 import RelationsFunctions from "@/components/RelationsFunctions";
+import { BreadCrumbContext } from "@/providers/BreadCrumbProvider";
+import { usePathname } from "next/navigation";
+import { useContext } from "react";
 
 
 const Flashcard = () => {
 
+  const {breadcrumb,setBreadcrumb}=useContext(BreadCrumbContext);
+  const pathname=usePathname();
+  //console.log(pathname)
+  setBreadcrumb(pathname)
 
   return (
     <>
