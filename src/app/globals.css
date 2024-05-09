@@ -2,32 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/*  background gradient effect */
+.bg-gradient{
+    background: linear-gradient(180deg, #06286E 0%, #164EC0 100%);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/* background gradient effect for button */
+.button-bg-gradient{
+    background: linear-gradient(180deg, #06286E 0%, #164EC0 100%);
+}
+.button-bg-gradient:hover{
+    background: linear-gradient(180deg, #0d47b9 0%, #3e79ee 100%);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* Text gradient effect */
+.text-gradient{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* study card background gradient effect */
+.study-gradient{
+    background: linear-gradient(222.94deg, #051A91 -4.31%, #061C93 14.41%, #2284F1 81.88%, #1F80EB 103.81%);
 }
+
+
+.border-gradient{
+    padding:1px;
+    border-radius: 1.3vw;
+    background: linear-gradient(90.26deg, #217EEC -1.17%, #082299 102.11%);
+}
+
+
