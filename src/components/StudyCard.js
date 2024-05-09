@@ -112,14 +112,14 @@ const StudyCard = () => {
       {/* Hint Modal */}
       {hint && (
         <>
-        <div onClick={()=>setHint(false)} className="absolute z-50 top-[20vh] right-[10vw] translate-x-[-50%] text-white">
+        <div onClick={()=>setHint(false)} className="absolute z-50 top-[25vh] right-[15vw] translate-x-[-50%] text-[#F9F9F9]">
           <IoIosClose className="w-[10vw] h-[10vh]" />
         </div>
-        <div className="p-2 absolute z-50 rounded-lg top-[30vh] left-[20vw] bg-white w-[50vw] h-[50vh]">
+        <div className="p-2 absolute z-50 rounded-lg top-[30vh] left-[20vw] bg-[#F9F9F9] w-[50vw] h-[50vh]">
           <div className="font-semibold text-[4vw] sm:text-[3vw] text-[#06286E] text-center">
             Hint
           </div>
-          <div>
+          <div className="text-[4vw] sm:text-[3vw]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam purus erat, finibus sit amet placerat et, mollis vel orci. Aliquam imperdiet sagittis tellus. Vestibulum eu augue a eros viverra vehicula. Proin mattis erat et sodales convallis. Vestibulum a efficitur lorem. Vestibulum scelerisque dignissim posuere
           </div>
         </div>

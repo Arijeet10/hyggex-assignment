@@ -18,19 +18,19 @@ const RelationsFunctions=()=>{
 
                 {/* Menus */}
                 <div className="py-[4vh] text-[#696671]  font-bold flex items-center justify-center gap-[2vw]">
-                    <div onClick={()=>setActive("Study")} className={` border-b-2  ${active=="Study" ? "border-[#06286E] text-[#06286E]":"border-[#ffffff]"}  cursor-pointer`}>
+                    <div onClick={()=>setActive("Study")} className={` border-b-2  ${active=="Study" ? "border-[#06286E] text-[#06286E]":"border-[#F9F9F9]"}  cursor-pointer`}>
                         <div className="text-center">Study</div>
                     </div>
-                    <div onClick={()=>setActive("Quiz")} className={`border-b-2  ${active=="Quiz" ? "border-[#06286E] text-[#06286E]":"border-[#ffffff]"}  cursor-pointer`}>
+                    <div onClick={()=>setActive("Quiz")} className={`border-b-2  ${active=="Quiz" ? "border-[#06286E] text-[#06286E]":"border-[#F9F9F9]"}  cursor-pointer`}>
                         <div className="text-center">Quiz</div>
                     </div>
-                    <div onClick={()=>setActive("Test")} className={`border-b-2  ${active=="Test" ? "border-[#06286E] text-[#06286E]":"border-[#ffffff]"}  cursor-pointer`}>
+                    <div onClick={()=>setActive("Test")} className={`border-b-2  ${active=="Test" ? "border-[#06286E] text-[#06286E]":"border-[#F9F9F9]"}  cursor-pointer`}>
                         <div className="text-center">Test</div>
                     </div>
-                    <div onClick={()=>setActive("Game")} className={`border-b-2  ${active=="Game" ? "border-[#06286E] text-[#06286E]":"border-[#ffffff]"}  cursor-pointer`}>
+                    <div onClick={()=>setActive("Game")} className={`border-b-2  ${active=="Game" ? "border-[#06286E] text-[#06286E]":"border-[#F9F9F9]"}  cursor-pointer`}>
                         <div className="text-center">Game</div>
                     </div>
-                    <div onClick={()=>setActive("Others")} className={`border-b-2  ${active=="Others" ? "border-[#06286E] text-[#06286E]":"border-[#ffffff]"}  cursor-pointer`}>
+                    <div onClick={()=>setActive("Others")} className={`border-b-2  ${active=="Others" ? "border-[#06286E] text-[#06286E]":"border-[#F9F9F9]"}  cursor-pointer`}>
                         <div className="text-center">Others</div>
                     </div>
                 </div>

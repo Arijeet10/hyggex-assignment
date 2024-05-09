@@ -17,11 +17,11 @@ const Navbar = () => {
 
         <div className="text-[#3A3740] flex items-center justify-between sm:justify-center gap-[2vw]">
           <div className="flex items-center justify-center gap-[2vw]">
-            <div onClick={()=>router.push("/")} className="cursor-pointer">Home</div>
-            <div onClick={()=>router.push("/flashcard")} className="cursor-pointer">Flashcard</div>
-            <div  className="cursor-pointer">Contact</div>
+            <button onClick={()=>router.push("/")} className="cursor-pointer">Home</button>
+            <button onClick={()=>router.push("/flashcard")} className="cursor-pointer">Flashcard</button>
+            <button  className="cursor-pointer">Contact</button>
           </div>
-          <div  className="cursor-pointer">FAQ</div>
+          <button  className="cursor-pointer">FAQ</button>
           <div>
             <button className="px-[2.5vw] py-[1vh] rounded-[32px] text-[#ffffff] font-medium button-bg-gradient ">
               Login
