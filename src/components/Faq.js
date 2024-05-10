@@ -8,7 +8,7 @@ const Faq = () => {
           FAQ
         </div>
         <div className="flex flex-col gap-[3vh]">
-          <div className="border-gradient">
+          <div className="sm:w-[60vw] border-gradient">
             <div className="bg-[#F9F9F9] text-[#28262C] rounded-[1.3vw] p-3 flex items-center justify-between">
               <div>Can education flashcards be used for all age groups?</div>
               <div>
@@ -16,7 +16,7 @@ const Faq = () => {
               </div>
             </div>
           </div>
-          <div className="border-gradient">
+          <div className="sm:w-[60vw] border-gradient">
             <div className="bg-[#F9F9F9] text-[#28262C] rounded-[1.3vw] p-3 flex items-center justify-between">
               <div>How do education flashcards work?</div>
               <div>
@@ -24,7 +24,7 @@ const Faq = () => {
               </div>
             </div>
           </div>
-          <div className="border-gradient">
+          <div className=" sm:w-[60vw] border-gradient">
             <div className="bg-[#F9F9F9] text-[#28262C] rounded-[1.3vw] p-3 flex items-center justify-between">
               <div>Can education flashcards be used for test preparation?</div>
               <div>

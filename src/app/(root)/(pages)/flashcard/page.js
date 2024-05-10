@@ -21,7 +21,7 @@ const Flashcard = () => {
           <RelationsFunctions />
         </div>
 
-        <div className=" sm:py-[2vh] flex flex-col sm:flex-row items-center justify-center sm:justify-between">
+        <div className=" sm:py-[0.5vh] flex flex-col sm:flex-row items-center justify-center sm:justify-between">
           <div className="">
             <img
               src="/publishedlogo.svg"
